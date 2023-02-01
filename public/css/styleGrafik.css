@@ -1,0 +1,14 @@
+.container {
+    width: 92%;
+    margin: auto;
+    background-color: rgb(3, 0, 28, 0.2);
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        background-color: rgb(3, 0, 28, 0.2);
+    }
+}

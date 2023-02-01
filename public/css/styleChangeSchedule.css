@@ -1,0 +1,109 @@
+tr td {
+    font-weight: bold;
+}
+
+form h5 {
+    font-weight: bold;
+}
+
+.edit-form {
+    width: 95%;
+    margin: auto;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px;
+    height: 500px;
+    background-color: #0081c9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body {
+    background-color: #eee;
+}
+
+.edit-schedule {
+    background-color: lightblue;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cancel-schedule {
+    background-color: red;
+    margin-top: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 483px;
+    left: 120px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+    .edit-form {
+        width: 800px;
+        margin: auto;
+        border: 5px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        padding: 10px;
+        height: 500px;
+        background-color: #0081c9;
+        overflow: auto;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .edit-schedule {
+        background-color: lightblue;
+        margin-top: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .edit-schedule:hover {
+        background-color: darkblue;
+    }
+
+    .cancel-schedule {
+        background-color: red;
+        font-size: 16px;
+        position: absolute;
+        top: 483px;
+        left: 690px;
+        margin-top: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .cancel-schedule:hover {
+        background-color: darkred;
+    }
+}

@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+}
+
+/* styling main */
+main h3 {
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+/* styling header */
+header {
+    background-color: #144272;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.jumbotron {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.image img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* styling schedule */
+.schedule {
+    padding-top: 20px;
+    background-color: #0a2647;
+}
+
+/* styling search schedule */
+
+.new-schedule button {
+    background-color: lightskyblue;
+    height: 20px;
+    width: 100px;
+}
+
+.new-schedule .export {
+    background-color: rgb(249, 148, 23, 1);
+    height: 20px;
+    width: 100px;
+}
+
+.search-schedule {
+    margin-left: 15px;
+}
+
+.search-schedule .grafik {
+    background-color: #7286d3;
+    height: 25px;
+}
+
+.search-schedule h2,
+.search-schedule h6 {
+    font-size: 10px;
+}
+
+.new-schedule {
+    margin-left: 15px;
+}
+
+button.search {
+    background-color: lightskyblue;
+    height: 25px;
+}
+
+button.show {
+    background-color: lightgreen;
+    height: 25px;
+}
+
+.search-schedule button,
+.new-schedule button,
+.item-schedule button {
+    font-size: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.search-schedule #days {
+    height: 20px;
+    width: 100px;
+}
+
+/* styling modal */
+.button-modal-footer {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* styling schedule.blade.php */
+.all-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card-schedule {
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    background-color: #144272;
+    margin: 10px;
+    box-shadow: 5px 5px 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.item-schedule {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #a3c7d6;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.item-schedule button {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+td#btn-delete button {
+    background-color: red;
+}
+
+td.btn-change button {
+    background-color: lightgreen;
+}
+
+/* styling video */
+.container-video {
+    background-color: #0d4c92;
+}
+
+.wrap-video-uhamka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.wrap-video-uhamka .video-uhamka {
+    width: 90%;
+    margin: 5px;
+    background-color: #0a2647;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px black;
+}
+
+.video-uhamka .description-video {
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.title-galeri-video h4 {
+    font-size: 10px;
+}
+
+.video-uhamka video {
+    width: 100%;
+    height: 100%;
+}
+
+/* styling developer */
+
+.container-developer {
+    background-color: #0a2647;
+    padding: 10px 0;
+}
+
+.wrap-developer-uhamka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrap-developer-uhamka .image-developer {
+    margin: 10px 0;
+    width: 90%;
+    background-color: #144272;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px black;
+}
+
+.title-galeri-developer h4 {
+    font-size: 10px;
+    margin: 15px 0;
+}
+
+.image-developer .description-image {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.image-developer td {
+    font-size: 10px;
+}
+
+.title-galeri-developer {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.description-image p {
+    font-size: 15px;
+}
+
+.description-image {
+    width: 250px;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.image-developer img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* styling footer */
+footer {
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: #144272;
+    height: 15vh;
+}
+
+footer p {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    /* width: 100%; */
+}
+
+footer marquee {
+    width: 250px;
+}
+
+/* tampilan laptop */
+@media (min-width: 600px) {
+    * {
+        margin: 0;
+    }
+
+    /* styling main */
+    main h3 {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    /* styling header */
+    header {
+        background-color: #144272;
+        display: flex;
+    }
+
+    header h1 {
+        color: white;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .jumbotron {
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .image img {
+        width: 150px;
+        height: 150px;
+        margin-left: 100px;
+    }
+
+    /* styling search schedule */
+    .schedule {
+        background-color: #0a2647;
+        padding-top: 20px;
+    }
+
+    .search-schedule #days {
+        height: 25px;
+        width: 195px;
+    }
+
+    .search-schedule .grafik {
+        background-color: #7286d3;
+        height: 35px;
+    }
+
+    .search-schedule .grafik:hover {
+        background-color: purple;
+    }
+
+    .search-schedule h2,
+    .search-schedule h6 {
+        font-size: 20px;
+    }
+
+    .new-schedule {
+        margin: 5px 0;
+    }
+
+    .new-schedule button {
+        background-color: lightskyblue;
+        height: 35px;
+        width: 195px;
+    }
+
+    .new-schedule .export {
+        background-color: rgb(249, 148, 23, 1);
+        height: 35px;
+        width: 195px;
+    }
+
+    .new-schedule .export:hover {
+        background-color: rgb(249, 148, 23, 0.5);
+    }
+
+    .new-schedule button:hover {
+        background-color: darkblue;
+    }
+
+    .search-schedule,
+    .new-schedule {
+        margin-left: 55px;
+        font-size: 16px;
+    }
+
+    .search-schedule button,
+    .new-schedule button,
+    .item-schedule button {
+        font-size: 16px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    button.search {
+        background-color: lightskyblue;
+        height: 35px;
+    }
+
+    button.search:hover {
+        background-color: darkblue;
+    }
+
+    button.show {
+        background-color: lightgreen;
+        height: 35px;
+    }
+
+    button.show:hover {
+        background-color: darkgreen;
+    }
+
+    /* styling modal */
+
+    .button-modal-footer {
+        margin-left: 10px;
+        font-size: 16px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* styling schedule.blade.php */
+    .all-schedule {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #card-schedule:hover {
+        border: 2px solid lightblue;
+    }
+
+    #card-schedule {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        background-color: #144272;
+        margin: 10px;
+        box-shadow: 5px 5px 3px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .item-schedule {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #a3c7d6;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+    .item-schedule button {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    td#btn-delete button {
+        background-color: red;
+    }
+
+    td#btn-delete button:hover {
+        background-color: darkred;
+    }
+
+    td.btn-change button {
+        background-color: lightgreen;
+    }
+
+    td.btn-change button:hover {
+        background-color: darkgreen;
+    }
+
+    /* styling galeri video */
+
+    .container-video {
+        background-color: #0d4c92;
+    }
+
+    .wrap-video-uhamka {
+        width: 1000px;
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrap-video-uhamka .video-uhamka {
+        width: 43%;
+        margin: 10px;
+        background-color: #0a2647;
+        color: white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px black;
+    }
+
+    .title-galeri-video h4 {
+        font-size: 25px;
+    }
+
+    .video-uhamka .description-video {
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .title-galeri-video {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .description-video p {
+        font-size: 15px;
+    }
+
+    .video-uhamka video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-uhamka:hover {
+        border: 2px solid lightblue;
+    }
+
+    /* styling galeri developer */
+
+    .container-developer {
+        background-color: #0a2647;
+        padding-top: 5px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+    }
+
+    .wrap-developer-uhamka {
+        width: 1000px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .wrap-developer-uhamka .image-developer {
+        width: 43%;
+        margin: 10px;
+        background-color: #144272;
+        color: white;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 3px 3px 5px black;
+    }
+
+    .title-galeri-developer h4 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .image-developer td {
+        font-size: 16px;
+    }
+
+    .image-developer .description-image {
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .title-galeri-developer {
+        margin-bottom: 30px;
+    }
+
+    .description-image p {
+        font-size: 15px;
+    }
+
+    .description-image {
+        width: 250px;
+        margin: auto;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .image-developer img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .image-developer:hover {
+        border: 2px solid lightblue;
+    }
+
+    /* styling footer */
+
+    footer {
+        padding-top: 20px;
+        box-sizing: border-box;
+        background-color: #144272;
+        height: 15vh;
+    }
+
+    footer p {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+
+    footer marquee {
+        width: 500px;
+    }
+}
