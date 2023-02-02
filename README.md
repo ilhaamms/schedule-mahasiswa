@@ -15,7 +15,7 @@ kemudian website ini juga menerapkan SPA (Single Page Aplication), dan juga meng
 
 ## Link Website
 
-[Schedule Mahasiswa](https://schedule-mhs.000webhostapp.com/)
+[Schedule Mahasiswa](https://schedule-mahasiswa.000webhostapp.com/)
 
 ## Preview
 
